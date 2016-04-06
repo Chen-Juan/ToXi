@@ -1,0 +1,5 @@
+微信支付的艰难爬坑路：
+  http://blog.csdn.net/jdsjlzx/article/details/47422279 
+  这个网址可以带你越过很多坑，
+  但是在此郑重声明：
+    这里必须要有wxapi这个包名，同时必须有WXPayEntryActivity这个类名，否则无法调起微信支付，这个包在你的包名下面，      比如说你的包名为com.aaa.bbb，wxapi这个包一定要保证包名路径为：com.aaa.bbb.wxapi，切记切记切记
